@@ -4,7 +4,6 @@
     display: flex;
     align-items: center;
     background-color:white;
-    position: sticky;
     top: 0;
 }
 
@@ -26,11 +25,8 @@
     border: none;
     width: 100%;
     background-color:rgb(221, 221, 221);
-
-
 }
 .header_searchIcon {
-
     padding: 5px;
     height: 22px !important;
     background-color: gray
@@ -40,6 +36,7 @@
 .header_optionLineOne {
     font-size: 10px;
 }
+
 .header_optionLineTwo {
     font-size: 13px;
     font-weight: 800;
