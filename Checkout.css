@@ -1,0 +1,17 @@
+.checkout {
+  display: flex;
+  padding: 22px;
+  background-color: rgb(199, 216, 216);
+  height: max-content;
+}
+
+.checkout__ad {
+  width: 70%;
+  margin-bottom: 10px;
+}
+
+.checkout__title {
+  margin-right: 14px;
+  padding: 14px;
+  border-bottom: 1px solid rgb(44, 70, 221);
+}
