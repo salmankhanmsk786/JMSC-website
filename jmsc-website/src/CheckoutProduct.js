@@ -1,3 +1,14 @@
+/*
+4/12/2023
+Mauricio Gonzalez, Cheol Han, 
+Joshua Santillan, Salman Khan
+Implements the information of an item in the cart
+Also contains the code for the button to remove
+an item from the cart
+An array is implemented to keep track of the rating
+of an item. Depending on the array the more stars
+the item will have
+ */
 import React from 'react'
 import './CheckoutProduct.css'
 import { useStateValue } from './StateProvider'
