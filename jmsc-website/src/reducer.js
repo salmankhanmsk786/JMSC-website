@@ -1,5 +1,18 @@
+/*
+4/14/2023
+Cheol Han, Salman Khan, 
+Joshua Santillan, Mauricio Gonzalez
+Contains the code that will allow for the cart to show 
+the customer their total
+Allows for the customer to remove items from cart as well
+Contains important if statements that will track if an item is in the cart
+which will then allow it to be removed if desired
+The cart is implemented as an array of the items that the customer will add to their 
+cart
+ */
 export const initialState = {
     cart: [],
+    user: null
 };
 //Selector
 export const getBasketTotal = (cart) => 
@@ -34,6 +47,12 @@ const reducer = (state, action) => {
                 ...state,
                 cart: newCart
             }
+
+            case "SET_USER":
+                return {
+                    ...state,
+                    user: action.user
+                }
 
 
         default:
