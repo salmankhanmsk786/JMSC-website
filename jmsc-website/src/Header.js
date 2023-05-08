@@ -28,7 +28,7 @@ function Header() {
   return (
     <div className = "header">
 
-      
+//header logo      
         <Link to ="/">
             <img 
             className = "header_logo"
@@ -37,7 +37,7 @@ function Header() {
         </Link>
       
     
-    
+//header search    
         <div className = "header_search">
           <input
           className="header_searchInput" type= "text"/>
