@@ -16,7 +16,7 @@ export const initialState = {
 };
 //Selector
 export const getBasketTotal = (cart) => 
-    cart?.reduce((amount, item) => item.price + amount, 0);
+    cart?.reduce((amount, item) => item.price + amount, 0); //Optional chaining
 
 const reducer = (state, action) => {
     console.log(action);
