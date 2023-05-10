@@ -75,7 +75,7 @@ function Header() {
             <div className = "header_optionBasket">
             <ShoppingBagIcon />
             <span className="header_optionLineTwo header_basketCount" > 
-            {cart?.length} 
+            {cart?.length} //Optional chaining
             </span>
             </div>
             
