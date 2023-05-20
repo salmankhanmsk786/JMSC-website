@@ -16,7 +16,7 @@ import ShoppingBagIcon from '@mui/icons-material/ShoppingBag';
 import { Link } from "react-router-dom"
 import { useStateValue } from './StateProvider';
 import { auth } from './firebase';
-
+//header function
 function Header() {
 
   const [{cart, user}, dispatch] = useStateValue();
