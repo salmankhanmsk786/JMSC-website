@@ -13,7 +13,7 @@
 import React from 'react'
 import "./Product.css";
 import { useStateValue} from "./StateProvider";
-
+//product function
 function Product({ id, title, image, price, rating}) {
   const [{cart}, dispatch] = useStateValue();
 
