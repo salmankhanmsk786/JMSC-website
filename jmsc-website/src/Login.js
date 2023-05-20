@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Login.css"
 import { Link, BrowserRouter, useNavigate } from "react-router-dom";
 import { auth } from "./firebase";
-
+//login function
 function Login() {
   const navigate = useNavigate();
   const [email, setEmail] = useState('');
