@@ -37,7 +37,7 @@ function Subtotal() {
           </>
         )}
         decimalScale={2} //Two decimal places
-        value={getBasketTotal(cart)}
+        value={getBasketTotal(cart)} //get basket total
         displayType={"text"}
         thousandSeparator={true}
         prefix={"$"}
