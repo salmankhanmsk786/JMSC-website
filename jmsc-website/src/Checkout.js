@@ -11,7 +11,7 @@ import Subtotal from "./Subtotal";
 import { useStateValue } from "./StateProvider";
 import CheckoutProduct from "./CheckoutProduct";
 
-
+//checkout function
 function Checkout() {
   const [{cart, user}, dispatch] = useStateValue();
 
