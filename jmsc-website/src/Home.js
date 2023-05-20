@@ -7,7 +7,7 @@ dispalyed on there with its price, image, and rating given to that item.
 import React from "react";
 import "./Home.css";
 import Product from "./Product";
-
+//home function
 function Home() {
   return (
     <div className="Home">
